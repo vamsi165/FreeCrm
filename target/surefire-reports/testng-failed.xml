@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [reg]">
+  <test name="retest(failed)">
+    <classes>
+      <class name="testcases.Logintest">
+        <methods>
+          <include name="titletest"/>
+          <include name="setup"/>
+          <include name="shutdown"/>
+          <include name="logintest"/>
+          <include name="logotest"/>
+        </methods>
+      </class> <!-- testcases.Logintest -->
+    </classes>
+  </test> <!-- retest(failed) -->
+</suite> <!-- Failed suite [reg] -->

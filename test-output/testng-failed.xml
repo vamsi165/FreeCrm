@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [reg]">
+  <listeners>
+    <listener class-name="ExtentReport.ExtentReporterNG"/>
+  </listeners>
+  <test name="retest(failed)">
+    <classes>
+      <class name="testcases.ContactPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="shutdown"/>
+          <include name="createncontact" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- testcases.ContactPageTest -->
+    </classes>
+  </test> <!-- retest(failed) -->
+</suite> <!-- Failed suite [reg] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="reg">
+<test name ="retest">
+<listeners>
+<listener class-name="ExtentReport.ExtentReporterNG"></listener>
+</listeners>
+<packages>
+<package name="testcases"></package>
+
+</packages>
+
+
+</test>
+
+</suite>
